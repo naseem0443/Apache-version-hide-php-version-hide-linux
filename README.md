@@ -1,9 +1,9 @@
 # Apache-version-hide-php-version-hide-linux
 
-1
- Security Settings --------------------------#
-# Disallow weak SSLCipherSuite
-SSLCipherSuite AES256+EECDH:AES256+EDH:AES128+EECDH:AES128+EDH
+
+ Security Settings --------------------------#<br>
+# Disallow weak SSLCipherSuite<br>
+SSLCipherSuite AES256+EECDH:AES256+EDH:AES128+EECDH:AES128+EDH<br>
 SSLProtocol -ALL -SSLv3 +TLSv1 +TLSv1.1 +TLSv1.2
 
 #Reduce Server HTTP Header to the minimum product (Apache) rather than showing detailed version information of the server and operating system
